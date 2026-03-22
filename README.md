@@ -10,7 +10,7 @@ Built for the **Claude Hackathon 2026** by **Team Daemons** - Prarthan Patel and
 
 ## What It Does
 
-**For the receiver** - when you open an email, Repliq shows you the tone behind the words, 2–3 possible interpretations ranked by likelihood, and an optional suggested reply if the message is ambiguous.
+**For the receiver** - when you open an email, Repliq shows you the tone behind the words, 2-3 possible interpretations ranked by likelihood, and an optional suggested reply if the message is ambiguous.
 
 **For the sender** - while composing, Repliq monitors your draft and flags vague time references, softening language that buries your actual request, and implied urgency. One click replaces your draft with a clearer version.
 
