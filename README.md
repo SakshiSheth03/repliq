@@ -2,17 +2,17 @@
 
 > Real-time bidirectional communication intelligence for Gmail.
 
-Repliq is a Chrome extension that decodes the tone and subtext of emails you receive, and flags ambiguous phrasing in messages you are about to send — privately, simultaneously, in real time.
+Repliq is a Chrome extension that decodes the tone and subtext of emails you receive, and flags ambiguous phrasing in messages you are about to send - privately, simultaneously, in real time.
 
-Built for the **Claude Hackathon 2026** by **Team Daemons** — Prarthan Patel and Sakshi Sheth.
+Built for the **Claude Hackathon 2026** by **Team Daemons** - Prarthan Patel and Sakshi Sheth.
 
 ---
 
 ## What It Does
 
-**For the receiver** — when you open an email, Repliq shows you the tone behind the words, 2–3 possible interpretations ranked by likelihood, and an optional suggested reply if the message is ambiguous.
+**For the receiver** - when you open an email, Repliq shows you the tone behind the words, 2–3 possible interpretations ranked by likelihood, and an optional suggested reply if the message is ambiguous.
 
-**For the sender** — while composing, Repliq monitors your draft and flags vague time references, softening language that buries your actual request, and implied urgency. One click replaces your draft with a clearer version.
+**For the sender** - while composing, Repliq monitors your draft and flags vague time references, softening language that buries your actual request, and implied urgency. One click replaces your draft with a clearer version.
 
 Both sides work privately and independently. The sender never sees the receiver's panel. The receiver never sees the sender's hints.
 
@@ -42,7 +42,7 @@ repliq/
 │       └── BridgeState.js  # Dismiss/accept session state
 ├── backend/
 │   ├── routes/
-│   │   ├── analyze.ts      # POST /analyze — Grok AI call
+│   │   ├── analyze.ts      # POST /analyze - Grok AI call
 │   │   └── preferences.ts  # GET /preferences
 │   └── lib/
 │       ├── grok.ts
@@ -124,7 +124,7 @@ npm run dev   # runs at http://localhost:5173
 
 ### 5. Sign up and test
 
-Go to `http://localhost:5173/signup`, create an account, complete preferences. Open Gmail — click any email to see the decode panel, then click Reply and type something vague to trigger a compose hint.
+Go to `http://localhost:5173/signup`, create an account, complete preferences. Open Gmail - click any email to see the decode panel, then click Reply and type something vague to trigger a compose hint.
 
 ---
 
@@ -153,23 +153,23 @@ Requires `Authorization: Bearer <firebase_id_token>`. Returns the user's prefere
 ## Privacy
 
 - No medical data, diagnostic labels, or clinical identifiers are stored at any point.
-- Message content is processed in memory and discarded immediately — nothing is persisted.
+- Message content is processed in memory and discarded immediately - nothing is persisted.
 - Each user's analysis is completely private. Neither side sees the other's output.
-- GDPR compliant — export or delete all data from the profile page.
+- GDPR compliant - export or delete all data from the profile page.
 
 ---
 
 ## Future Scope
 
-- **Rephrasing and tone setting** — let users choose a target tone (formal, warm, direct) and have Repliq rephrase their draft accordingly, beyond just flagging ambiguity.
-- **Interactive tone validation** — a mode where the user guesses the tone of a received message before seeing the analysis, building communication awareness over time.
-- **Grammar and spell check** — integrate lightweight grammar and spelling correction alongside tone analysis so Repliq covers clarity at every level.
-- **Deeper NLP and sarcasm detection** — improve context parsing and sentiment analysis to understand sarcasm, irony, and hidden meaning that surface-level tone classification misses.
+- **Rephrasing and tone setting** - let users choose a target tone (formal, warm, direct) and have Repliq rephrase their draft accordingly, beyond just flagging ambiguity.
+- **Interactive tone validation** - a mode where the user guesses the tone of a received message before seeing the analysis, building communication awareness over time.
+- **Grammar and spell check** - integrate lightweight grammar and spelling correction alongside tone analysis so Repliq covers clarity at every level.
+- **Deeper NLP and sarcasm detection** - improve context parsing and sentiment analysis to understand sarcasm, irony, and hidden meaning that surface-level tone classification misses.
 
 ---
 
 ## Team
 
-**Team Daemons** — Claude Hackathon 2026
+**Team Daemons** - Claude Hackathon 2026
 
 Sakshi Sheth · Prarthan Patel
